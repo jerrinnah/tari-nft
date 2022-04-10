@@ -1,0 +1,27 @@
+.tari__card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 15);
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tari__card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(119, 0, 255); */
+}
+
+.tari__card-container img{
+    width: 150px;
+    padding: 10px;
+}
+.tari__card-title{
+    margin-left: 40px;
+}

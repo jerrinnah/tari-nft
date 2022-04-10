@@ -1,0 +1,29 @@
+.tari__hero {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  justify-content: space-between;
+}
+.tari__text-container h1 {
+    margin-top: 130px;
+    width: 500px;
+    font-size: 60px;
+  /* background-color: blue; */
+}
+.tari__nameOutline{
+    color: var(white);
+
+}
+
+.tari__image-container img {
+  height: auto;
+  width: 500px;
+}
+.tari__button-container{
+    display: flex;
+    padding-top: 20px;
+
+}
+.btn{
+    margin-right: 2rem;
+}

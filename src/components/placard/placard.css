@@ -1,0 +1,55 @@
+.tari__placard-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgb(177, 91, 41);
+    border-radius: 15px;
+    width: 350px;
+    min-height: 500px;
+    margin-top: 50px;
+    color: white;
+}
+
+.tari__placard-image img{
+    height: 350px;
+    width:300px;
+    border-radius: 15px;
+
+    
+}
+.tari__placard-info{
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+}
+.tari__placard-avi-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.tari__placard_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    /* background-color: brown; */
+}
+
+.tari__placard_details-avi img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.tari__placard_details-avi{
+    display: flex;
+}
+
+.tari__avi-text{
+    display: flex;
+    flex-direction: column;
+}
+.tari__avi-text p{
+    font-size: 9px;
+}

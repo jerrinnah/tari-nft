@@ -1,0 +1,7 @@
+.tari__categories-container{
+    /* width: 300px;
+    background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
