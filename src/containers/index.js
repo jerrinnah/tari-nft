@@ -1,0 +1,9 @@
+export { default as Header } from './header/Header';
+export { default as Hero } from './hero/Hero';
+export { default as Explore } from './explore/Explore';
+export { default as Categories } from './categories/Categories';
+export { default as Collections } from './collections/Collections';
+export { default as SellNft } from './sellNft/SellNft';
+export { default as TopSeller } from './topSeller/TopSeller';
+export { default as NftAd } from './nftAd/NftAd';
+export { default as Footer } from './footer/Footer';

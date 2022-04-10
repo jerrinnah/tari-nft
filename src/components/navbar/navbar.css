@@ -1,0 +1,150 @@
+.tari__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* color: white; */
+
+  padding: 0.3rem 1rem;
+}
+
+.tari__navbar-links {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.tari__navbar-links_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tari__navbar-links_logo_image {
+  height: auto;
+  width: 50px;
+  margin-left: 50px;
+  margin-right: 26rem;
+  /* margin-top: 10px; */
+}
+.tari__navbar-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.tari__navbar-links_container p,
+.tari__navbar-buttons p {
+  color: white;
+  font-family: var(--font-family);
+  font-size: 16px;
+  text-transform: capitalize;
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.tari__wallet-button {
+  display: flex;
+  height: 40px;
+  width: 150px;
+  padding: 0.7rem;
+  background-color: rgb(70, 70, 251);
+  border-radius: 0.31rem;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+.tari__wallet-sign-in {
+  display: flex;
+  justify-content: center;
+  border-style: groove;
+  height: 40px;
+  width: 150px;
+  padding: 0.7rem;
+  border-radius: 0.31rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tari__navbar-menu {
+  margin-left: 1rem;
+  position: relative;
+  /* display: none; */
+}
+.tari__navbar-menu svg {
+  cursor: pointer;
+}
+
+/* TOGGLE MENU  */
+.tari__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-height: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+.tari__navbar-menu_container p{
+    margin: 1rem 0;
+}
+.tari__menu_container-btn{
+    display: none;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .tari__navbar-links_container{
+        display:none ;
+    }
+    .tari__navbar-menu{
+        display: flex;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    
+    .tari__navbar{
+        padding: 2rem 4rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    
+    .tari__navbar{
+        padding: 2rem;
+    }
+    .tari__navbar-buttons{
+        display: none;
+    }
+
+    .tari__navbar-menu_container-links{
+        display: block;
+    }
+    .tari__menu_container-btn{
+        display: flex;
+        height: 40px;
+        width: 100px;
+        padding: 0.7rem;
+        background-color: rgb(70, 70, 251);
+        border-radius: 0.31rem;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        color: white;
+        cursor: pointer;
+    }
+}
+

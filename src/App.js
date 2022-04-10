@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+import {
+  Header,
+  Hero,
+  Explore,
+  Categories,
+  Collections,
+  SellNft,
+  TopSeller,
+  NftAd,
+  Footer,
+} from "./containers";
+
+import { Navbar,HeroSection, Feature, Cta, FooterSection} from './components'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="gradient__bg">
+        <Header />
+        <Navbar/>
+      </div>
+      <Hero />
+      <Explore />
+      <Categories />
+      <Collections />
+      <SellNft />
+      <TopSeller />
+      <NftAd />
+      <Footer />
     </div>
   );
 }
