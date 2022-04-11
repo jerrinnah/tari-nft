@@ -6,8 +6,9 @@ import {
   Hero,
   Explore,
   Categories,
-  Collections,
-  SellNft,
+  // Collections,
+  Collectionsx,
+  Tags,
   TopSeller,
   NftAd,
   Footer,
@@ -25,8 +26,8 @@ function App() {
       <Hero />
       <Explore />
       <Categories />
-      <Collections />
-      <SellNft />
+      <Collectionsx />
+      <Tags />
       <TopSeller />
       <NftAd />
       <Footer />
