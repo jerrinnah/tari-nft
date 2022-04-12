@@ -2,11 +2,9 @@ import React from "react";
 import "./App.css";
 
 import {
-  Header,
   Hero,
   Explore,
   Categories,
-  // Collections,
   Collectionsx,
   Tags,
   TopSeller,
@@ -20,6 +18,7 @@ import { Navbar,HeroSection, Feature, Cta, FooterSection, Button} from './compon
 function App() {
   return (
     <div className="App">
+      {/* <h1 style={{color: 'white'}}>hola</h1> */}
       <div className="gradient__bg">
         <Navbar/>
       </div>
@@ -27,7 +26,7 @@ function App() {
       <Explore />
       <Categories />
       <Collectionsx />
-      <Tags />
+      {/* <Tags /> */}
       <TopSeller />
       <NftAd />
       <Footer />
