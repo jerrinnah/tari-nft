@@ -1,0 +1,17 @@
+.tari__ad-container{
+    background-color: rgb(0, 0, 0);
+    /* color: white; */
+   
+}
+
+.tari__tag_container {
+    display: flex;
+   flex-wrap: wrap;
+
+}
+
+.tari__ad_title{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 50px;
+}

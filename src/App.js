@@ -26,7 +26,6 @@ function App() {
       <Explore />
       <Categories />
       <Collectionsx />
-      {/* <Tags /> */}
       <TopSeller />
       <NftAd />
       <Footer />

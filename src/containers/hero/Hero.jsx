@@ -7,9 +7,9 @@ const  Hero = () => {
   return (
     <div className='tari__hero section__padding'>
       <div className='tari__text-container'> <h1>
-        Completely impact
-        <h4 className='tari__nameOutline'> NFT-Metavars</h4>
-         Word resources
+        Completely impact NFT-Metavars
+        Word resources
+         
       </h1>
       <p>TariNft brings to th</p>
       <div className='tari__button-container'>

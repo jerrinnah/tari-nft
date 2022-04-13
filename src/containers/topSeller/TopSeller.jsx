@@ -3,8 +3,9 @@ import './topSeller.css';
 
 const TopSeller = () => {
   return (
-    <div>topSeller</div>
+    <div></div>
   )
 }
 
 export default TopSeller
+

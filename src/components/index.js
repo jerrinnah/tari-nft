@@ -5,4 +5,4 @@ export { default as HeroSection } from './hero/HeroSection.jsx';
 export { default as Feature } from './feature/Feature';
 export { default as Cta } from './cta/Cta';
 export { default as Footer } from './footer/FooterSection';
-export { default as Tags } from './tags/Tags';
+export { default as Tags } from './tags/Tag';
