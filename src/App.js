@@ -9,6 +9,7 @@ import {
   Tags,
   TopSeller,
   NftAd,
+  SellNFT,
   Footer,
 } from "./containers";
 
@@ -28,6 +29,7 @@ function App() {
       <Collectionsx />
       <NftAd />
       <TopSeller />
+      <SellNFT/>
       <Footer />
     </div>
   );

@@ -1,12 +1,26 @@
 .tari__topSeller{
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
    background-color: rgb(0, 0, 0);
 }
+
+.tari__topSeller h1{
+    color: rgb(255, 255, 255);
+}
+.tari__verify_box{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.tari__verify_box h1{
+   
+    align-self: flex-start;
+    margin-left: 200px;
+}   
 
 .tari__verify_container{
     display: flex;
