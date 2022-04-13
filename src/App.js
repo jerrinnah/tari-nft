@@ -26,8 +26,8 @@ function App() {
       <Explore />
       <Categories />
       <Collectionsx />
-      <TopSeller />
       <NftAd />
+      <TopSeller />
       <Footer />
     </div>
   );
