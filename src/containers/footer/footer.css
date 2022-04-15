@@ -1,0 +1,19 @@
+.tari__footer_container{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: rgba(7, 1, 19, 0.286);
+}
+.tari__info_para{
+    width: 300px;
+}
+.tari__info_para {
+    font-size: 12px;
+}
+
+.tari__footer_container h1{
+    font-size: 15px;
+}
+.tari__footer_container li{
+    font-size: 12px;
+}

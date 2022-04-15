@@ -2,17 +2,16 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(13, 12, 12);
-  width: 320px;
+  width: 274px;
   height: 250px;
   border-radius: 5px;
-  border: 1px solid rgb(254, 137, 101);
+  border: 1px solid rgba(254, 137, 101, 0.178);
   color: white;
   margin-left: 3px;
   margin-right: 3px;
   margin-top: 5px;
   flex-wrap: wrap;
 }
-
 
 .tari__tag-container img {
   width: 150px;
@@ -27,25 +26,24 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(21, 21, 21);
-  height:80px;
+  height: 80px;
   width: 80px;
   border-radius: 5px;
   margin-left: 20px;
   margin-top: 30px;
   margin-bottom: 20px;
- 
 }
 
 .tari__abi-placehoder img {
   height: 70px;
   width: 70px;
 }
-.tari__tag_title{
-    font-size: 22px;
-    margin-left: 15px;
-    padding-bottom: 20px;
+.tari__tag_title {
+  font-size: 22px;
+  margin-left: 15px;
+  padding-bottom: 20px;
 }
-.tari__tag_info{
-    font-size: 14px;
-    margin-left: 20px;
+.tari__tag_info {
+  font-size: 14px;
+  margin-left: 20px;
 }
